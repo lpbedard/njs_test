@@ -1,0 +1,10 @@
+---
+applications:
+- name: njs_test
+  memory: 128M
+  instances: 1
+  host: njs_test
+  command: node index.js
+  buildpack: nodejs_buildpack
+  path: .
+  domain: us-east.stage.tools.yaas.io
